@@ -4,7 +4,6 @@
         <meta charset="utf-8">
 <title>   </title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-
 </head>
 
 
@@ -50,29 +49,31 @@
 
 
     	<form>
-    		<button>B</button>   <button>I</button>     <button>Underline</button> 
+    		<button id="Bold"  onclick="bold()" type="button">B</button>
+               <button id="ita" onclick="italic()"  type="button">I</button>
+                    <button id="und"  onclick="under()"type="button">Underline</button> 
 
-    		<select>
-    		<option>20px</option>
-            <option>21px</option>
-            <option>22px</option>
-            <option>23px</option>
+    		<select  onchange=" pixel()" id="px">
+    		<option  value="20px" >20px</option>
+            <option   value="25px">25px</option>
+            <option   value="30px">30px</option>
+            <option  value="35px">35px</option>
 
 
 </select>
 
 
 
-    		<select>
-    		<option>arial</option>
-            <option>verdana</option>
+    		<select id="fs" onchange="fam()">
+    		<option  value="cursive"> Arial</option>
+            <option  value="fantasy"> Verdana</option>
             
 
 </select>
 <br> <br>
 
-<textarea rows="10" cols="40" >
-	
+<textarea style="resize: none;" rows="10" cols="40"  id="area">
+
  
 
 
@@ -88,6 +89,12 @@
 
 </body>
 
+<script type="text/javascript" src="js/main.js"></script>
 
 
 </html>
+
+
+<script >
+ 
+</script>

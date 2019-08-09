@@ -66,6 +66,7 @@ padding-left: 50px;
 margin-left: 220px; 
 margin-bottom: 70px;
 
+
 } 
 
 
@@ -90,7 +91,7 @@ margin-bottom: 70px;
 align-items:flex-start;
 }
 
-.navbar {
+.navbar { position: relative;
 	margin-bottom: : 50px;
 	display: flex;
 	
@@ -99,3 +100,5 @@ align-items:flex-start;
 .lu li a{
 	
 }
+
+
